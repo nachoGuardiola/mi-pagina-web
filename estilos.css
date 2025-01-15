@@ -60,7 +60,7 @@ body{
     
 }
 #central{
-    display: grid;
+    
     place-items: center;
     text-align: center;
     background-color: #a2c8f1;
