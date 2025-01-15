@@ -1,0 +1,153 @@
+body{
+    background-color:  #1b4c82;
+    color:#333333 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#jesus {
+    background-color: #69696b;
+    border-radius: 2%;
+    display: block;
+    height: 20px;
+    border: solid;
+}
+.lis{
+     list-style: none;
+    
+}
+
+.lis li a{
+    color: aliceblue;
+    
+}
+
+
+#jesus ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    
+    
+}
+
+
+#jesus ul li{
+    display: inline;
+    list-style-type: none;
+    color: #FFFFFF; 
+    margin-left: 15px;
+    
+    
+   
+    
+    
+}
+#jesus .lis li a{
+    height: 20px;
+}
+
+
+#jesus ul li a:hover{
+    color: #FF8C00;
+    
+}
+
+#jesusul li a{
+    text-decoration: none;
+    color: #1E90FF;
+
+    
+}
+#central{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-color: #a2c8f1;
+    border-radius: 2%;
+}
+.tabla{
+    background-color:gray;
+    text-align: center;
+    border: solid;
+    border-radius: 3%;
+    border-color: #FF8C00;
+}
+
+.tabla tr th {
+    background-color:gray;
+    text-align: center;
+    border: solid;
+    border-radius: 5%;
+}
+.tabla tr td {
+    background-color:gray;
+    text-align: center;
+    border: solid;
+    border-radius: 5%;
+}
+
+#principal{
+    text-align: center;
+}
+
+.imagen-reducida{
+    margin-top: 10%;
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.social-icons a {
+    color: #000;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #007bff;
+}
+
+#parrafo{
+    display: none;
+}
+
+#quiensoy:hover + #parrafo{
+    display: block;
+}
+#formacion{
+    display: none;
+}
+
+#miformacion:hover + #formacion{
+    display: block;
+}
+#siona{
+    display: none;
+}
+#apasiona:hover+#siona{
+    display:block;
+}
+#lista{
+    display: none;
+}
+
+#pasatiempo:hover+#lista{
+    display: block;
+}
+#rutina{
+    display: none;
+}
+#mirutina:hover+#rutina{
+    display:block;
+}
+#tabla{
+    display: none;
+}
